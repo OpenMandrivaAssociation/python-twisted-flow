@@ -6,6 +6,7 @@ Source0:        http://tmrc.mit.edu/mirror/twisted/Flow/0.1/TwistedFlow-%{versio
 License:        MIT
 Group:          Development/Python
 URL:            http://twistedmatrix.com/projects/flow/
+BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildRequires:	python-devel python-twisted-core
 Requires:       python-twisted-core
 # for twisted.flow.web
