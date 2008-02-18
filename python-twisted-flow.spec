@@ -1,7 +1,7 @@
 Summary:        Generator-based async result flow module for Twisted
 Name:           python-twisted-flow
 Version: 0.1.0
-Release: %mkrel 3
+Release: %mkrel 4
 Source0:        http://tmrc.mit.edu/mirror/twisted/Flow/0.1/TwistedFlow-%{version}.tar.bz2
 License:        MIT
 Group:          Development/Python
