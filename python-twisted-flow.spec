@@ -1,4 +1,4 @@
-Summary:        Flow is a generator-based async result flow module for Twisted
+Summary:        Generator-based async result flow module for Twisted
 Name:           python-twisted-flow
 Version: 0.1.0
 Release: %mkrel 3
