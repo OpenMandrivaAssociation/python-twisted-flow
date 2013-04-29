@@ -1,7 +1,7 @@
 Summary:        Generator-based async result flow module for Twisted
 Name:           python-twisted-flow
-Version:	8.2.0
-Release:	%mkrel 2
+Version:  	8.2.0
+Release:	    3
 Source0:        http://tmrc.mit.edu/mirror/twisted/Flow/0.1/TwistedFlow-%{version}.tar.bz2
 License:        MIT
 Group:          Development/Python
@@ -10,7 +10,8 @@ BuildRequires:	python-devel python-twisted-core
 Requires:       python-twisted-core
 # for twisted.flow.web
 Requires:       python-twisted-web
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+
+%define debug_package %{nil}
 
 %description
 Flow is a generator-based async result flow module for Twisted.
